@@ -20,8 +20,7 @@ function removeDuplication(cryptogram) {
 
 function decryption(cryptogram) {
   if (checkDuplication(cryptogram) === false) return cryptogram;
-  cryptogram = removeDuplication(cryptogram);
-  return decryption(cryptogram);
+  return decryption(removeDuplication(cryptogram));
 }
 
 function problem2(cryptogram) {
