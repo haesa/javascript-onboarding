@@ -35,10 +35,8 @@ function problem1(pobi, crong) {
   if (exceptionCheck(pobi, crong)) return -1;
   const pobiMax = getScore(pobi);
   const crongMax = getScore(crong);
-  let answer;
-  if (pobiMax === crongMax) answer = 0;
-  else if (pobiMax > crongMax) answer = 1;
-  else if (pobiMax < crongMax) answer = 2;
-  return answer;
+  if (pobiMax === crongMax) return 0;
+  else if (pobiMax > crongMax) return 1;
+  else return 2;
 }
 module.exports = problem1;
