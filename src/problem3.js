@@ -10,7 +10,6 @@ function countClap(number) {
 }
 
 function problem3(number) {
-  const answer = countClap(number);
-  return answer;
+  return countClap(number);
 }
 module.exports = problem3;
