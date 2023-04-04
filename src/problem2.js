@@ -25,7 +25,6 @@ function decryption(cryptogram) {
 }
 
 function problem2(cryptogram) {
-  const answer = decryption(cryptogram);
-  return answer;
+  return decryption(cryptogram);
 }
 module.exports = problem2;
