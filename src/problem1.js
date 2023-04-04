@@ -1,10 +1,14 @@
 function getSum(page) {
-  const num = [...page.toString()].map(Number).reduce((acc, cur) => acc + cur);
+  const num = [...page.toString()] //
+    .map(Number)
+    .reduce((acc, cur) => acc + cur);
   return num;
 }
 
 function getMulti(page) {
-  const num = [...page.toString()].map(Number).reduce((acc, cur) => acc * cur);
+  const num = [...page.toString()] //
+    .map(Number)
+    .reduce((acc, cur) => acc * cur);
   return num;
 }
 
