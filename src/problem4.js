@@ -22,7 +22,6 @@ function getGreenFrogWord(word) {
 }
 
 function problem4(word) {
-  const answer = getGreenFrogWord(word);
-  return answer;
+  return getGreenFrogWord(word);
 }
 module.exports = problem4;
