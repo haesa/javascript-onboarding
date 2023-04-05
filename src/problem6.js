@@ -10,11 +10,10 @@ function checkDuplication(nickname, forms) {
 }
 
 function getDuplicatedList(forms) {
-  const result = forms //
+  return forms //
     .filter(([email, name]) => checkDuplication(name, forms))
     .map(([email, name]) => email)
     .sort();
-  return result;
 }
 
 function problem6(forms) {
