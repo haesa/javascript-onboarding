@@ -46,7 +46,6 @@ function recommendFriends(user, friends, visitors) {
 }
 
 function problem7(user, friends, visitors) {
-  const answer = recommendFriends(user, friends, visitors);
-  return answer;
+  return recommendFriends(user, friends, visitors);
 }
 module.exports = problem7;
