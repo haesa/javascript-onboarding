@@ -12,7 +12,6 @@ function withdrawMoney(money) {
 }
 
 function problem5(money) {
-  const answer = withdrawMoney(money);
-  return answer;
+  return withdrawMoney(money);
 }
 module.exports = problem5;
