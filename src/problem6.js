@@ -18,7 +18,6 @@ function getDuplicatedList(forms) {
 }
 
 function problem6(forms) {
-  const answer = getDuplicatedList(forms);
-  return answer;
+  return getDuplicatedList(forms);
 }
 module.exports = problem6;
